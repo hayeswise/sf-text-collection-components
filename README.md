@@ -41,6 +41,8 @@ Returns a Text collection (array) as a comma separated string of values.  The de
 
 # Installation
 This is an unmanaged package.
+
 Installation URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4T000001ptaT
+
 Installation URL path and search part: packaging/installPackage.apexp?p0=04t4T000001ptaT
 
