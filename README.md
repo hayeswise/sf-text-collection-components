@@ -32,11 +32,15 @@ Returns true if a text collection (array) contains the provided value; otherwise
 Returns a Text collection (array) as a string (text) in the form of "[item1, item2, ...]".
 
 ### Input
-* TextCollection - Text Collection.
+* Collection - Text Collection.
+* Braket - If true, the returned string starts with an opening bracket and ends with a closing bracket; otherwise, brackets are not added. Default value is true.
+* Quote - Set to a quote character, such as the single quote or double quote, to prepend and append to each item. Defaults to empty string. Useful for creating lists for a SOQL WHERE...IN clause.
 
 ### Output
 * String - Text - A string representation of the TextCollection in the form of "[item1, item2, ...]".
 
 # Installation
 This is an unmanaged package.
-Installation URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4T000001ptZk
+Installation URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4T000001ptaT
+Installation URL path and search part: packaging/installPackage.apexp?p0=04t4T000001ptaT
+
