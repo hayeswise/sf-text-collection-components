@@ -29,7 +29,7 @@ Returns true if a text collection (array) contains the provided value; otherwise
 * IncludesValue - Boolean - True indicates that the value is a member of the collection; false indicates otherwise.
 
 ## Text Collection To String
-Returns a Text collection (array) as a string (text) in the form of "[item1, item2, ...]".
+Returns a Text collection (array) as a comma separated string of values.  The default format is "[value1, value2, ...]". The enclosing brackets can be suppressed and the the individual values can be quoted.
 
 ### Input
 * Collection - Text Collection.
