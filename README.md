@@ -19,6 +19,8 @@ However, with improvements in the [UnofficialSF](https://unofficialsf.com/)'s [E
 
 # Components
 ## Split
+<img align="right" src="https://github.com/hayeswise/sf-text-collection-components/blob/master/images/Split.png">
+
 Separates the input text into a collection of text values. The comma is the default separator. Optionally, a separator can be provided and it can a be text string such a semi-colon, one or more spaces, or a word, such as "and".
 
 Inspired by the Java and Javascript split() method. Based on David Litton's "Parse Multi-Select" flow at https://salesforcesidekick.com/2016/11/07/parse-a-multi-select-value-in-visual-flow-unmanaged-package-included/.
@@ -36,6 +38,7 @@ Inspired by the Java and Javascript split() method. Based on David Litton's "Par
 | Values | Text Collection | A text collection (array) of the values in the input Text. |
 
 ## Text Collection Includes
+<img align="right" src="https://github.com/hayeswise/sf-text-collection-components/blob/master/images/TextColllectionIncludes.png">
 Returns true if a text collection (array) contains the provided value; otherwise, returns false.
 
 ### Input
@@ -52,7 +55,9 @@ Returns true if a text collection (array) contains the provided value; otherwise
 | IncludesValue | Boolean | True indicates that the value is a member of the collection; false indicates otherwise. |
 
 ## Text Collection To String
+<img align="right" src="https://github.com/hayeswise/sf-text-collection-components/blob/master/images/TextCollectionToString.png">
 Returns a Text collection (array) as a comma separated string of values.  The default format is "[value1, value2, ...]". The enclosing brackets can be suppressed and the the individual values can be quoted.
+
 
 ### Input
 
