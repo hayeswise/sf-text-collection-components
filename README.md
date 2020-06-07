@@ -56,7 +56,7 @@ Returns true if a text collection (array) contains the provided value; otherwise
 
 ## Text Collection To String
 <img align="right" src="https://github.com/hayeswise/sf-text-collection-components/blob/master/images/TextCollectionToString.png">
-Returns a Text collection (array) as a comma separated string of values.  The default format is "[value1,value2,...]". The enclosing brackets can be suppressed and the the individual values can be quoted to give you a string in the format of "'value1','value2',..."
+Returns a Text collection (array) as a comma separated string of values.  The default format is [value1,value2,...]. The enclosing brackets can be suppressed and the the individual values can be quoted to give you a string in the format of 'value1','value2',...
 
 
 ### Input
