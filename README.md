@@ -30,7 +30,7 @@ Inspired by the Java and Javascript split() method. Based on David Litton's "Par
 | Parameter | Type | Description|
 | :-- | :-- | :-- |
 | Text | Text | A delimted set of text values. |
-| Separator | Text | Optional. The character or text separating the values in the list. Extra spaces before or after the values will be ignored. The comma is the default separator. Optionally, a separator can be provided and it can a be text string such a semi-colon, one or more spaces, or a word, such as "and".|
+| Separator | Text | Optional. The character or text separating the values in the list. Extra spaces before or after the values will be trimmed (removed). The comma is the default separator. Optionally, a separator can be provided and it can a be text string such a semi-colon, one or more spaces, or a word, such as "and".|
 
 ### Output
 | Parameter | Type | Description|
@@ -56,7 +56,7 @@ Returns true if a text collection (array) contains the provided value; otherwise
 
 ## Text Collection To String
 <img align="right" src="https://github.com/hayeswise/sf-text-collection-components/blob/master/images/TextCollectionToString.png">
-Returns a Text collection (array) as a comma separated string of values.  The default format is "[value1, value2, ...]". The enclosing brackets can be suppressed and the the individual values can be quoted.
+Returns a Text collection (array) as a comma separated string of values.  The default format is "[value1,value2,...]". The enclosing brackets can be suppressed and the the individual values can be quoted to give you a string in the format of "'value1','value2',..."
 
 
 ### Input
