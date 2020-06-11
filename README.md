@@ -64,7 +64,7 @@ Returns a Text collection (array) as a comma separated string of values.  The de
 | Parameter | Type | Description|
 | :-- | :-- | :-- |
 | Collection | Text Collection | A text collection (array) |
-| Brakets | Text | An optional comma separated list of characters to use as the opening and closing characters. For example,  "[,]" (without quotes) will enclose the output string in square brackets. It is possible to provided multiple character brackets (e.g., "begin,end") or just the opening bracket char(s). Leading and trailing white space is trimmed from the provided values. |
+| Brakets | Text | An optional comma separated list of characters to use as the opening and closing characters. For example,  "[,]" (without quotes) will enclose the output string in square brackets. It is possible to provided multiple character brackets (e.g., "begin,end"). Leading and trailing white space is trimmed from the provided values. |
 | Quote | Text | Set to a quote character, such as the single quote or double quote, to prepend and append to each item. Defaults to empty string. Useful for creating lists for a SOQL WHERE...IN clause. |
 
 ### Output
