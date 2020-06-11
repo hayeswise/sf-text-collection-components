@@ -64,7 +64,7 @@ Returns a Text collection (array) as a comma separated string of values.  The de
 | Parameter | Type | Description|
 | :-- | :-- | :-- |
 | Collection | Text Collection | A text collection (array) |
-| Braket | Boolean | If true, the returned string starts with an opening bracket and ends with a closing bracket; otherwise, brackets are not added. Default value is true. |
+| Brakets | Text | An optional comma separated list of characters to use as the opening and closing characters. For example,  "[,]" (without quotes) will enclose the output string in square brackets. It is possible to provided multiple character brackets (e.g., "begin,end") or just the opening bracket char(s). Leading and trailing white space is trimmed from the provided values. |
 | Quote | Text | Set to a quote character, such as the single quote or double quote, to prepend and append to each item. Defaults to empty string. Useful for creating lists for a SOQL WHERE...IN clause. |
 
 ### Output
@@ -76,7 +76,9 @@ Returns a Text collection (array) as a comma separated string of values.  The de
 # Installation
 This is an unmanaged package.
 
-Installation URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4T000001ptaT
+Text Collection Components 1.2
 
-Installation URL path and search part: packaging/installPackage.apexp?p0=04t4T000001ptaT
+Installation URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4T000001ptbM
+
+Installation URL path and search part: packaging/installPackage.apexp?p0=04t4T000001ptbM
 
